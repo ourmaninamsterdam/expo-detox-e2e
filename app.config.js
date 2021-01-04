@@ -1,4 +1,4 @@
-{
+module.exports = () => ({
   "expo": {
     "name": "expo-detox-e2e",
     "slug": "expo-detox-e2e",
@@ -29,4 +29,4 @@
       "favicon": "./assets/favicon.png"
     }
   }
-}
+});
