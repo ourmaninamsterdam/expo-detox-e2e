@@ -7,8 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "dl_expo_bins": "./scripts/dl_expo_bins",
-    "e2e": "npx detox test",
-    "postinstall": "patch-package"
+    "e2e": "npx detox test"
   },
   "dependencies": {
     "expo": "~40.0.0",
@@ -26,7 +25,7 @@
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
     "detox": "^17.14.6",
-    "detox-expo-helpers": "^0.6.0",
+    "detox-expo-helpers": "git@github.com:ourmaninamsterdam/detox-expo-helpers.git#patch-init",
     "expo-detox-hook": "^1.0.10",
     "jest": "^26.6.3",
     "jest-circus": "^26.6.3",
